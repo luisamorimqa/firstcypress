@@ -8,5 +8,15 @@ export default {
 
         cy.get('.fa-lock')
             .click()
+    },
+
+    accessLogin() {
+
+        cy.visit('/')
+            .get('.fa-user')
+            .should('be.visible')
+
+        cy.get('.fa-user')
+            .click()
     }
 }
