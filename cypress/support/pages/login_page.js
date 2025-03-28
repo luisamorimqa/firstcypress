@@ -3,11 +3,9 @@ const elements = {
         email: '#user',
         password: '#password'
     },
-
     buttons: {
         login: '#btnLogin'
     },
-
     messages: {
         error: '.invalid_input',
         successLogin: '.swal2-title',        

@@ -9,6 +9,7 @@ describe('Login', () => {
         password: faker.internet.password()
     }
 
+    
     beforeEach(() => {
         home_page.accessLogin()
     })

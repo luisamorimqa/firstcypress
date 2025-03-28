@@ -1,5 +1,4 @@
 export default {
-
     accessCadastroUsuario() {
 
         cy.visit('/')
